@@ -42,4 +42,38 @@
             <button class="see-all-btn">SEE ALL</button>
         </div>
     </section>
+    <section class="cards-section">
+        <div class="cards-container">
+            <div class="card" *ngFor="let cardTitle of cardsTitles; let i = index">
+                <img src="{{cardsImagesPaths[i]}}" alt="" class="card-bg-img">
+                <div class="card-title">{{cardTitle}}</div>
+                <div class="card-overlay"></div>
+            </div>
+        </div>
+    </section>
 </section>
+<footer>
+    <div class="footer-row">
+        <div class="footer-title">
+            loopstudios
+        </div>
+        <ul class="footer-ul">
+            <li><img src="../../../assets/icons/icon-facebook.svg" alt=""></li>
+            <li><img src="../../../assets/icons/icon-instagram.svg" alt=""></li>
+            <li><img src="../../../assets/icons/icon-pinterest.svg" alt=""></li>
+            <li><img src="../../../assets/icons/icon-twitter.svg" alt=""></li>
+        </ul>
+    </div>
+    <div class="footer-row">
+        <ul class="footer-ul">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+        <div class="footer-description">
+            &copy; 2021 Loopstudios. All rights reserved.
+        </div>
+    </div>
+</footer>

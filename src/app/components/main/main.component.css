@@ -104,3 +104,124 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.25rem;
 }
+
+.our-creations-section {
+    margin-top: 8rem;
+}
+
+.our-creations-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-creations-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.see-all-btn {
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    padding: 1rem 2.25rem;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+.see-all-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.cards-section {
+    margin-top: 3rem;
+}
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    height: max-content;
+    width: max-content;
+    cursor: pointer;
+}
+
+.card-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    width: 9ch;
+    color: white;
+    position: absolute;
+    bottom: 7.5%;
+    left: 15%;
+    z-index: 1;
+}
+
+.card-overlay {
+    height: 99%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 400ms ease;
+}
+
+.card-overlay:hover {
+    background-color: transparent;
+}
+
+footer {
+    background-color: black;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8rem;
+    gap: 2rem;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footer-ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-ul>li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer-ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.footer-description {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
